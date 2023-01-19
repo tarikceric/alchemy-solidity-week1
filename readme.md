@@ -1,5 +1,13 @@
 ## ECDSA Node - Week 1 Alchemy + Solidity
 
+The goal of this project was to enhance an application (consisting of a react front-end that communicates with a single server) by incorporating public key cryptography. A digital signature is applied, so that only a user holding the appropriate private key is able to create a signature which can move funds between accounts. This signature is then verified by the server in order to confirm the transfer.
+
+In order to accomplish this, the first step is to utilize the 'generate.js' script which creates 3 separate combinations for a private key, public key, and address. In the front end application, a user can type in the private key, and it should return the balance of the address which is derived from that private key. The address of the recipient can then be passed in to send funds.
+
+The 'ethereum-cryptography' library is used extensively in order to generate keys/addresses, encode messages, and recover public keys.
+
+
+
 ----------------------Original ReadMe Below-------------------
 ## ECDSA Node
 
